@@ -15,6 +15,7 @@ const loadBBCBangla = () => {
 			const li = document.createElement("li");
 			li.innerHTML = `
 	            <button
+                    id='${category.id}'
 	                class="menu-item text-[#141414] text-[17px] font-normal cursor-pointer pt-3 pb-1 border-b-[4px] border-transparent hover:border-b-[#B80000] transition-all duration-300"
 	            >
 	                ${category.title}
